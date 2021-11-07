@@ -1,0 +1,122 @@
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Pacifico&display=swap');
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    .wp {
+        width: 100%;
+        height: 100vh;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/26643942.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .content .logo a {
+        color: #fff;
+        font-size: 30px;
+        font-weight: 600;
+    }
+    
+    .textCol {
+        margin-top: 135px
+    }
+    
+    .textCol p {
+        font-size: 20px;
+        font-weight: 100;
+        line-height: 25px;
+        padding-top: 10px;
+        font-family: 'Pacifico', cursive;
+    }
+    
+    .h1 span {
+        color: #fff;
+        font-size: 45px;
+        font-family: 'Pacifico', cursive;
+    }
+    
+    .spanSecond {
+        margin-left: 50px;
+    }
+    
+    .logo {
+        width: 70px;
+    }
+    
+    p {
+        color: #fff;
+        font-size: 15px;
+        line-height: 25px;
+    }
+    
+    .nav-link {
+        transition: all 0.3s ease;
+        border-radius: 5px;
+    }
+    
+    .nav-link:hover {
+        color: white;
+        border-bottom: 2px solid gray;
+        transition: 3s ease;
+    }
+    
+    .cards {
+        height: 250px;
+        padding: 55px 50px;
+        box-sizing: border-box;
+        cursor: pointer;
+        margin: 5px 10px;
+        background-position: center;
+        background-size: cover
+    }
+    
+    .navbarG {
+        background-color: #00000012;
+    }
+    
+    .card1 {
+        background-image: url(../images/Disvol.jpg);
+    }
+    
+    .card2 {
+        background-image: url(../images/vol2.jpg);
+    }
+    
+    .card3 {
+        background-image: url(../images/vol3_2.jpg);
+    }
+    
+    .card4 {
+        background-image: url(../images/vol4.jpg);
+    }
+    
+    .card5 {
+        background-image: url(../images/DisV.jpg );
+        height: 500px;
+    }
+    
+    .card:hover {
+        transform: translateY(-10px);
+    }
+    
+    .rowsCol {
+        margin-top: 50px
+    }
+    
+    footer {
+        margin-top: 245px;
+    }
+    
+    .backgrounds {
+        width: 100%;
+        height: 100vh;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/background.jpg);
+        background-position: center;
+        background-size: cover;
+    }
