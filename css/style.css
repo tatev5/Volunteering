@@ -12,7 +12,7 @@
     .wp {
         width: 100%;
         height: 100vh;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/26643942.jpg);
+        background-color: #fff;
         background-position: center;
         background-size: cover;
     }
@@ -24,10 +24,12 @@
     }
     
     .textCol {
-        margin-top: 30px
+        margin-top: 30px;
+        color:black
     }
     
     .textCol p {
+        color:black;
         font-size: 20px;
         font-weight: 100;
         line-height: 25px;
@@ -35,9 +37,9 @@
         font-family: 'Pacifico', cursive;
     }
     
-    .h1 span {
-        color: #fff;
-        font-size: 45px;
+   .textCol h1 {
+        color:black;
+        font-size: 40px;
         font-family: 'Pacifico', cursive;
     }
     
@@ -170,8 +172,95 @@
     
     .carousel-control-next {
         margin-right: 10%;
+        
     }
     
     .carousel-control-prev {
         margin-left: 15%
     }
+    .visually-hidden{
+        color: black;
+    }
+
+ .container{
+     margin-top:15%
+ }
+ .img-text{
+     width: 100%;
+     height: 300px;
+     display: block;
+     text-align: center;
+     padding: 40% 5%;
+     background: #262626;
+     color: white;
+     border-radius: 15px;
+ }
+ .img-text h2{
+     font-size: 25px;
+     text-transform: uppercase;
+     letter-spacing: 2px;
+ }
+ .img-text p{
+     font-size:14px
+ }
+ .single-box{
+     position: relative;
+     margin-bottom: 30px;
+ }
+ .img-area{
+     position: absolute;
+     width: 100px;
+     height: 100px;
+     border: 5px solid #fff;
+     overflow: hidden;
+     top: 15px;
+     left: 125px;
+     border-radius: 50%;
+ }
+ .img-area img{
+     width:100%
+ }
+ .carousel-indicators{
+     left:0;
+     top: auto;
+     bottom: -70px;
+ }
+ .carousel-indicators li{
+     background: gray;
+     border-radius: 50%;
+     width: 15px;
+     height: 15px;
+ }
+ .carousel-indicators .active{
+     background: #000;
+ }
+ .forms{
+     width: 50%;
+     margin-left: 25%;
+ }
+ .forms h1{
+     padding-left: 100px;
+ }
+
+
+  .videoContainer{
+      margin-top: 12%;
+  }
+  .videoContainer h1{
+    margin-bottom: 50px !important;
+  }
+  .play-btn{
+      width: 50px;
+      position: relative;
+      top:-50%;
+      cursor: pointer;
+      transition: 0.5s;
+      opacity: 0;
+  }
+  .imgV:hover .play-btn{
+      opacity: 1;
+  }
+  .modal-content{
+      background: transparent;
+      border:none !important
+  }
