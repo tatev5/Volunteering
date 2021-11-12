@@ -1,6 +1,7 @@
  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
  @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
  @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Pacifico&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Sassy+Frass&family=Shalimar&display=swap');
  * {
      margin: 0;
      padding: 0;
@@ -40,7 +41,7 @@
  .textCol h1 {
      color: #ffc107;
      font-size: 40px;
-     font-family: 'Pacifico', cursive;
+     font-family: system-ui;
  }
  
  .spanSecond {
