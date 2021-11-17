@@ -168,7 +168,8 @@
  .caruselImg {
      margin-left: 25%;
      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-     margin-top: 5%
+     margin-top: 20px;
+     width: 1000px;
  }
  
  .next {
@@ -214,7 +215,7 @@
  }
  
  .videoContainer {
-     margin-top: 12%;
+     margin-top: 5%;
  }
  
  .videoContainer h1 {
@@ -357,6 +358,7 @@
      font-size: 55px;
      color: black;
  }
- .teamPhoto{
+ 
+ .teamPhoto {
      margin-left: 350px;
  }

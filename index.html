@@ -1,46 +1,48 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" type="image/x-icon" href="./images/logo_2.png" />
     <title>Կամավորներն ամենուրեք</title>
 </head>
 
 <body>
-    <div class=" container-fluid">
-        <div class="row  ">
-            <nav class="navbar    navbar-expand-lg navbar-light ">
-                <div class="container-fluid navbarG">
-                    <a class="navbar-brand rounded float-end" href="#"><img class="logo" src="./images/logo_2.png" alt=""></a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item ">
-                                <a class="nav-link active text-light" aria-current="page" href="index.html">Գլխավոր էջ</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" href="Volunteering.html">Կամավորություններ</a>
-                            </li>
-                            <li class="nav-item ">
-                                <a class="nav-link text-dark" href="OurTeam.html">Մեր թիմը</a>
-                            </li>
+    <nav class="navbar navbar-expand-lg navbarG navbar-light  ">
+        <a class="navbar-brand rounded float-end" href="index.html"><img class="logo" src="./images/logo_2.png" alt=""></a>
 
-                        </ul>
-                        <form class="d-flex">
-                            <input class="form-control me-2" type="search" placeholder="Որոնել" aria-label="Search">
-                            <button class="btn btn-outline-secondary" type="submit">Որոնել</button>
-                        </form>
-                    </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+       </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link active text-light" aria-current="page" href="index.html">Գլխավոր էջ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="Volunteering.html">Կամավորություններ</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link text-dark" href="OurTeam.html">Մեր թիմը</a>
+                </li>
+
+            </ul>
+            <form class="form-inline my-2 my-lg-0 col-md-4">
+                <div style="position: relative;">
+                    <input class="custom_search form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <span class="search_span"></span>
                 </div>
-            </nav>
+                <button class="ml-lg-3 btn btn-outline-secondary my-2 my-sm-0 search_button tx--white" type="button" placeholder="Որոնել" ripple="ripple">Որոնել</button>
+            </form>
         </div>
+    </nav>
+    <div class=" container-fluid">
         <div class="row d-flex justify-content-center  ">
             <div class=" col-lg-3 textCol ">
                 <h1 class="h1 ">
@@ -50,20 +52,21 @@
                 </p>
             </div>
         </div>
+    </div>
+    <div id="carouselExampleFade" class="carousel slide d-none d-lg-none d-md-none d-sm-none d-xl-block carousel-fade" data-ride="carousel">
+        <div class="carousel-inner ">
+            <div class="carousel-item active" data-interval="1000">
+                <img src="./images/slider02.jpg" class="d-block caruselImg  pl-5" alt="...">
 
-        <div id="carouselExampleFade" class="carousel slide d-none d-lg-none d-md-none d-sm-none d-xl-block carousel-fade" data-ride="carousel">
-            <div class="carousel-inner ">
-                <div class="carousel-item active" data-interval="1000">
-                    <img src="./images/DisV_2.jpg" class="d-block caruselImg w-70 h-25 pl-5" alt="...">
-                </div>
-                <div class="carousel-item" data-interval="2000">
-                    <img src="./images/29126513.jpg" class="d-block caruselImg w-70 h-25 pl-5" alt="...">
-                </div>
-                <div class="carousel-item" data-interval="3000">
-                    <img src="./images/38605996.jpg" class="d-block caruselImg w-70 ml5 h-25 pl-5" alt="...">
-                </div>
             </div>
-            <!-- <button class="carousel-control-prev prev" type="button" data-bs-target="#carouselExampleFade" data-slide="prev">
+            <div class="carousel-item" data-interval="2000">
+                <img src="./images/1606810222-8973.jpeg" class="d-block caruselImg   pl-5" alt="...">
+            </div>
+            <div class="carousel-item" data-interval="3000">
+                <img src="./images/Volunteer-Together.jpg" class="d-block caruselImg   pl-5" alt="...">
+            </div>
+        </div>
+        <!-- <button class="carousel-control-prev prev" type="button" data-bs-target="#carouselExampleFade" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
           </button>
@@ -71,64 +74,63 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
           </button> -->
-        </div>
-
     </div>
 
 
-    <div class=" container-fluid ">
-        <div class="d-flex justify-content-center">
-            <div class="mr-auto mt-5 ml-auto h1">
-                Կամավորական աշխատանքներ
-            </div>
+    <div class=" container-fluid">
+        <div class=" row ">
+            <div class="d-flex justify-content-center">
+                <div class="mr-auto mt-5 ml-auto h1">
+                    Կամավորական աշխատանքներ
+                </div>
 
-        </div>
-        </br>
-        <div class="row ">
-            <div class="card col-12  col-md-2 ">
-                <img src="./images/Disvol.jpg" class="card-img-top" alt="...">
-                <div class="card-body d-flex flex-column">
-                    <a type='submit' href="https://www.actionforchildren.org.uk/" target="__blank" class="btn btn-outline-dark  mt-auto">Այցելել էջ</a>
-                </div>
             </div>
-            <div class="card col-12 col-md-2">
-                <img src="./images/vol2.jpg" class="card-img-top" alt="...">
-                <div class="card-body d-flex flex-column">
-                    <a type='submit' href="https://www.birthrightarmenia.org/" target="__blank" class="btn btn-outline-dark  mt-auto">Այցելել էջ</a>
+            </br>
+            <div class="row ">
+                <div class="card col-12  col-md-2 ">
+                    <img src="./images/1628511567-5625.jpeg" class="card-img-top mt-5" alt="...">
+                    <div class="card-body d-flex flex-column">
+                        <a type='submit' href="https://www.redcross.am/en/home.html/" target="__blank" class="btn btn-outline-dark  mt-auto">Այցելել էջ</a>
+                    </div>
                 </div>
-            </div>
+                <div class="card col-12 col-md-2">
+                    <img src="./images/62470371_2468423149846245_4189333434348339200_n.jpg" class="card-img-top mt-5" alt="...">
+                    <div class="card-body d-flex flex-column">
+                        <a type='submit' href="https://www.birthrightarmenia.org/" target="__blank" class="btn btn-outline-dark  mt-auto">Այցելել էջ</a>
+                    </div>
+                </div>
 
-            <div class="card col-12 col-md-2">
-                <img src="./images/vol3_2.jpg" class="card-img-top" alt="...">
-                <div class="card-body d-flex flex-column">
-                    <a type='submit' href="http://www.huj.am/workcamps/armenia" target="__blank" class="btn btn-outline-dark   mt-auto">Այցելել էջ</a>
+                <div class="card col-12 col-md-2">
+                    <img src="./images/qoLIHOPZ6WLthaWJoo1Z5YBzbcJ6B3lGnwwaWFvu.jpeg" class="card-img-top mt-5" alt="...">
+                    <div class="card-body d-flex flex-column">
+                        <a type='submit' href="http://www.huj.am/workcamps/armenia" target="__blank" class="btn btn-outline-dark   mt-auto">Այցելել էջ</a>
+                    </div>
                 </div>
-            </div>
-            <div class="card col-12 col-md-2">
-                <img src="./images/vol5.jpg" class="card-img-top" alt="...">
-                <div class="card-body d-flex flex-column">
-                    <a type='submit' href='https://petpartners.org/volunteer/' target="__blank" class="btn btn-outline-dark  mt-auto">Այցելել էջ</a>
+                <div class="card col-12 col-md-2">
+                    <img src="./images/210817292_1505351096463793_5051005682611489532_n.jpg" class="card-img-top mt-5" alt="...">
+                    <div class="card-body d-flex flex-column">
+                        <a type='submit' href='https://www.facebook.com/GyumriYouthCenter/' target="__blank" class="btn btn-outline-dark  mt-auto">Այցելել էջ</a>
+                    </div>
                 </div>
-            </div>
-
-
-            <div class="card col-12 col-md-2">
-                <img src="./images/33289005.jpg" class="card-img-top" alt="...">
-                <div class="card-body d-flex flex-column">
-                    <a type='submit' href="https://www.birthrightarmenia.org/" target="__blank" class="btn btn-outline-dark  mt-auto">Այցելել էջ</a>
-                </div>
-            </div>
-            <div class="card col-12 col-md-2">
-                <img src="./images/30511674.jpg" class="card-img-top" alt="...">
-                <div class="card-body d-flex flex-column">
-                    <a type='submit' href='https://www.actionforchildren.org.uk/' target="__blank" class="btn btn-outline-dark  mt-auto">Այցելել էջ</a>
-                </div>
-            </div>
 
 
+                <div class="card col-12 col-md-2">
+                    <img src="./images/v1.jpg" class="card-img-top mt-5" alt="...">
+                    <div class="card-body d-flex flex-column">
+                        <a type='submit' href="https://caritas.am/" target="__blank" class="btn btn-outline-dark  mt-auto">Այցելել էջ</a>
+                    </div>
+                </div>
+                <div class="card col-12 col-md-2">
+                    <img src="./images/mariam-2-1-243x300.jpg" class="card-img-top mt-3" alt="...">
+                    <div class="card-body d-flex flex-column">
+                        <a type='submit' href='http://emiliaregak.am/' target="__blank" class="btn btn-outline-dark  mt-auto">Այցելել էջ</a>
+                    </div>
+                </div>
+
+
+            </div>
         </div>
     </div>
-
     <div class="container videoContainer text-center">
         <h1>Ի՞նչու դառնալ կամավոր՝</h1>
         <div class="row">
@@ -168,7 +170,8 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="contents">
-                                    <p class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus harum vitae modi doloribus obcaecati, vero nam, iusto aut, qui quibusdam aliquid. Dignissimos beatae incidunt debitis omnis neque, alias nesciunt aut.</p>
+                                    <p class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus harum vitae modi doloribus obcaecati, vero nam, iusto aut, qui quibusdam aliquid. Dignissimos beatae incidunt debitis omnis neque, alias nesciunt aut.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -190,7 +193,8 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="contents">
-                                    <p class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus harum vitae modi doloribus obcaecati, vero nam, iusto aut, qui quibusdam aliquid. Dignissimos beatae incidunt debitis omnis neque, alias nesciunt aut.</p>
+                                    <p class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus harum vitae modi doloribus obcaecati, vero nam, iusto aut, qui quibusdam aliquid. Dignissimos beatae incidunt debitis omnis neque, alias nesciunt aut.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -212,7 +216,8 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="contents">
-                                    <p class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus harum vitae modi doloribus obcaecati, vero nam, iusto aut, qui quibusdam aliquid. Dignissimos beatae incidunt debitis omnis neque, alias nesciunt aut.</p>
+                                    <p class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus harum vitae modi doloribus obcaecati, vero nam, iusto aut, qui quibusdam aliquid. Dignissimos beatae incidunt debitis omnis neque, alias nesciunt aut.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -230,7 +235,7 @@
         </div>
 
     </div>
-   
+
     <br>
     <br>
     <br>
@@ -311,9 +316,9 @@
         </div>
     </div>
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </body>
 
 </html>
