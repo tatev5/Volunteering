@@ -81,7 +81,7 @@
  }
  
  .navbarG {
-     background-color: #2c2c2c52;
+     background-color: #f1c235bd;
  }
  
  .card1 {
@@ -157,18 +157,20 @@
  #team .card:hover {
      background: #555252;
      color: #fff;
-     border-radius: 5px;
+     border-radius: 10px;
      border: none;
      box-shadow: 5px 5px 10px #9e9e9e;
  }
- 
+ .visitPage .card:hover{
+background:rgba(255, 166, 2, 0.774);
+ }
  #team .card:hover h3,
  #team .card:hover i {
      color: #fff;
  }
- 
+
  .caruselImg {
-     margin-left: 350px;
+     margin-left: 200px;
      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
      margin-top: 20px;
      width: 1000px;
@@ -483,3 +485,132 @@
          height: auto;
      }
  }
+ 
+
+
+ .volun{
+    font-size:clamp(1.2rem, 5vw, 3rem);
+    line-height:100%;
+    color: #ffc107;
+  }
+  
+  .containersH{
+    display:flex;
+    justify-content:center;
+
+    border-radius: 10px;
+  }
+  
+  .words{
+    color: #ffc107;
+    text-align:right;
+    position:relative;
+    max-width:150px;
+    width:130px;
+    
+  }
+  
+  .words > h1{
+    animation:show 6s ease infinite forwards;
+    position:absolute;
+    right:0;
+    opacity:0;
+    font-size:clamp(1.2rem, 5vw, 3rem);
+  }
+  
+  .words > h1:nth-of-type(2){
+    animation-delay:2s;
+  }
+  
+  .words > h1:nth-of-type(3){
+    animation-delay:4s;
+  }
+  
+  @keyframes show{
+    0%{
+      opacity:0;
+      transform:translateY(-100%);
+    }
+    20%{
+      opacity:1;
+      transform:translateY(0);
+    }
+    40%{
+      opacity:0;
+    }
+    100%{
+      opacity:0;
+    }
+  } 
+  
+.Body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    gap: 1.25rem;
+    margin: 1.25rem;
+    font-size: 1.25rem;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: normal;
+    list-style: none;
+}
+
+.item {
+    width: 200px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.thumbnail {
+    width: 100%;
+    border-radius: 50%;
+    animation: spinning 1s linear infinite;
+    animation-play-state: paused;
+}
+
+.thumbnail:hover {
+    animation-play-state: running;
+}
+
+.thumbnail:not(:hover) {
+    animation: none;
+}
+
+@keyframes spinning {
+    0% {
+         transform: rotateY(0deg);
+    }
+    100% {
+         transform: rotateY(360deg);
+    }
+}
+
+.person-name {
+    text-align: center;
+    padding-top: 0.25rem;
+    font-size: 1.125rem;
+}
+
+.person-email {
+    text-align: center;
+    font-style: italic;
+    color: darkgrey;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+}
+
+a {
+    text-decoration: none;
+    text-decoration-color: darkgrey;
+    cursor: pointer;
+}
+
+a,
+a:visited,
+a:hover,
+a:active {
+    color: inherit;
+}
