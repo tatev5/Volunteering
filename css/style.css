@@ -3,6 +3,7 @@
  @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Pacifico&display=swap');
  @import url('https://fonts.googleapis.com/css2?family=Sassy+Frass&family=Shalimar&display=swap');
  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
  * {
      margin: 0;
      padding: 0;
@@ -526,6 +527,45 @@ background:rgba(255, 166, 2, 0.774);
     animation-delay:4s;
   }
   
+  .cardVolunter {
+    border-radius: 20px;
+    background: #eeeeee;
+    box-shadow: 20px 20px 60px #cacaca, -20px -20px 60px #ffffff;
+    border: none
+}
+
+.cardVolunter img {
+    border-radius: 50%;
+    background: linear-gradient(145deg, #d6d6d6, #ffffff);
+    box-shadow: 20px 20px 60px #cacaca, -20px -20px 60px #ffffff
+}
+
+.neo-button {
+    width: 40px;
+    height: 40px;
+    outline: 0 !important;
+    cursor: pointer;
+    color: #fff;
+    font-size: 15px;
+    border: none;
+    margin-right: 10px;
+    border-radius: 50%;
+    background: linear-gradient(145deg, #d6d6d6, #ffffff);
+    box-shadow: 20px 20px 60px #cacaca, -20px -20px 60px #ffffff
+}
+
+.neo-button:active {
+    border-radius: 50%;
+    background: linear-gradient(145deg, #d6d6d6, #ffffff);
+    box-shadow: inset 20px 20px 60px #cacaca, inset -20px -20px 60px #ffffff
+}
+
+
+.fa-google {
+    color: #dc4e41
+}
+
+
   @keyframes show{
     0%{
       opacity:0;
